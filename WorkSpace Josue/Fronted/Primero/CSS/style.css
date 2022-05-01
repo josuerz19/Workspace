@@ -1,0 +1,128 @@
+* {
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido-first {
+    padding-top: 20px;
+}
+
+h1 { font-size: 30px;
+color: black;
+padding-top: 35px;}
+
+h3 { font-size: 20px;
+    text-align:center;
+    background-color: #9D9897;
+    color: white;
+}
+
+
+body {
+    margin: 0;
+    
+    
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin: 30px 0px;
+}
+
+.todo-contenido {
+    width: 65%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.todo-contenido {
+    box-shadow: 1px 1px 10px;
+}
+
+.contenido-first {
+    margin: auto;
+    height: 270px;
+    width: 80%;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.titulo-uno {
+    margin-top: 18px;
+    padding-bottom: 50px;
+}
+
+.left {
+    text-align: center;
+    float: left;
+    margin: 3% 10px 0px 30px;
+    padding: 5px 8px;
+}
+
+.right {
+    text-align: center;
+    float: right;
+    margin: 3% 30px 0px 0px;
+    padding: 5px 8px;
+}
+.q {
+    padding: 0px 0px 5px 0px;
+    font-size: 18px;
+}
+.a {
+    padding: 0px 0px 5px 0px;
+    font-size: 18px;
+}
+
+.titulo-uno {
+    padding: 50px 0px 0px 0px;
+}
+
+.titulo-dos {
+    height: 20px;
+}
+
+.titulo-tres {
+    margin-top: 0px;
+}
+
+.contenido-dos {
+    margin: 28px 0px 0px 5%;
+    width: 90%;
+    
+}
+
+.contenido-tres {
+    margin: 20px 0px 0px 5%;
+    width: 90%;
+    padding-bottom: 30px;
+
+}
+
+.contenido-two {
+    margin: auto;
+    height: 550px;
+    width: 80%;
+}
+
+.contenido-three {
+    margin: auto;
+    height: 200px;
+    width: 80%;
+}
+
+
+.contenido-four {
+    width: 80%;
+    margin: auto;
+}
+
+p {
+    font-size: 19px;
+}
