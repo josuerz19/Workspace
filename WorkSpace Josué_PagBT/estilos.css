@@ -1,0 +1,187 @@
+/*
+body {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+*/
+#not-icon {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#register {
+    font-weight: bold;
+}
+#menuNav {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+}
+
+h5 {
+    color: white;
+    font-weight: bold;
+}
+p {
+    color: white;
+}
+/*
+a:hover{
+    
+    box-shadow: 1px 1px 10px 0.4pt;
+}
+*/
+
+.d-block {
+    
+    height: 1000px;
+    width: 800px;
+    clip-path: inset(0 0 220px 0);
+    overflow: hidden;
+    
+}
+
+h1 {
+    margin-top: 200px;
+}
+
+.articulo {
+    height: 15%;
+    width: 20%;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: white;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.imagen {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.tdk {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+.contenedor {
+  
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.contenidofinal {
+    display: flex;
+    /* border: solid rgb(74, 0, 89); */
+    width: 90%;
+    justify-content: space-between;
+}
+
+
+
+.formulario {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column wrap;
+   
+    height: 600px;
+    width: 500px;
+    box-shadow: 1px 10px 10px;
+    
+}
+    .form h2 {
+        margin-bottom: 50px;
+    }
+    
+    
+
+.form button{
+    display: flex;
+    padding: 40px 70px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    border-radius: 0 35px 35px 0;
+    
+}
+
+.form input {
+    margin: 10px 0 50px 0;
+    display: flex;
+    width: 230px;
+    padding: 20px 5px;
+   
+    
+}
+
+
+
+
+
+.fa-whatsapp {
+    font-size: 100px;
+    color: green;
+
+
+}
+
+
+.div__whp {
+    display: flex;
+    justify-content: flex-end;
+    /* position: relative; */
+    margin-bottom: 200px;
+    /* border: solid; */
+    
+}
+
+#bt_wh {
+    position: fixed;
+    bottom: 60px;
+    right: 80px;
+    
+}
+
+footer {
+    font-size: 24px;
+    background-color: rgb(0, 2, 2);
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+
+
+/*
+
+.div__whp {
+    position: relative;
+  
+    
+}
+
+  
+button .whatsapp {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
+*/
+
