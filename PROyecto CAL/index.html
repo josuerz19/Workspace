@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calcular</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+
+        <div class="div__form">
+            <form id="form" name="fomul">
+                <h2>Qué desea calcular?</h2>
+
+                <input class="input" type="number" id="numero1" placeholder="Ingrese un número" name="numero1">
+                <input class="input" type="number" id="numero2" placeholder="Ingrese otro número" name="numero2">
+
+                <select class="opciones" name="miSelect" id="options">
+                    <option value="Suma" id="sumate">Suma</option>
+                    <option value="Resta" id="restate">Resta</option>
+                    <option value="Multiplicacion" id="multiplicate">Multiplicación</option>
+                    <option value="Division" id="dividete">División</option>
+                </select>
+
+                <input type="submit" value="Enviar" class="botn" onclick="insertRowTable();">
+            </form>
+            <div id="mostrar">
+                <table id="tablita">
+                    <tr>
+                        <!--Representa las filas -->
+                        <th>N1</th>
+                        <!-- Representa el encabezado de filas -->
+                        <th>N2</th>
+                        <th>Operación</th>
+                        <th>Resultado</th>
+                    </tr>
+
+
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="content-footer">
+        <footer class="footer">By: Josué Rz &copy;</footer>
+    </div>
+    <script src="codigo.js">
+    </script>
+</body>
+
+</html>
