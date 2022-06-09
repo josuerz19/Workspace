@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos'100</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+<div class="content">
+<div class="content-left">
+        <div class="">
+            <h1>PRODUCTOS</h1>
+       </div>
+       
+   <div class="formulario">
+       <form class="" id="formulario">
+
+
+               <div class="div-input">
+                   <label for="" class="form-label">Codigo</label>
+                   <input type="text" class="input" id="cod" required>
+               </div>
+
+               <div class="div-input">
+                   <label for="" class="form-label">Nombre</label>
+                   <input type="text" class="input" id="nom" required>
+               </div>
+
+
+
+               <div class="div-input">
+                <label for="" class="form-label">Cantidad</label>
+                <input type="number" class="input" required id="cantd" min="1">
+            </div>
+
+           <div class="div-input">
+            <label for="" class="form-label">Precio</label>
+            <input type="text" class="input" required id="prec">
+        </div>
+
+               <div class="button">
+                   <button class="btn" type="submit" id="button-form" onclick="addDatos();">Comprar</button>
+               </div>
+
+       </form>
+   </div>
+</div>
+
+
+
+<div class="div-tabla">
+
+   <table id="tabla">
+
+       <tr class="row1">
+           <th>Codigo</th>
+           <th>Nombre</th>
+           <th>Cantidad</th>
+           <th>Precio</th>
+       </tr>
+
+   </table>
+
+</div>
+</div>
+
+<section class="modal modal-quit"> 
+   <div class="modal-container">
+
+    <div class="content-mini-modal">
+       <h2>Modificar datos</h2>
+           <input type="text" class="input" id="cod-modal">
+           <input type="text" class="input" id="nom-modal">
+           <input type="text" class="input" id="cantd-modal">
+           <input type="text" class="input" id="precio-modal">
+           </div>
+             <div class="btn-edit">
+                <button class="btn-modify">Modificar</button>
+                <button class="btn-cancel">Cancelar</button>
+             </div>
+      <a class="modal-quit">X</a>
+   </div>
+</section>
+
+<script src="codigo.js"></script>
+</body>
+</html>
