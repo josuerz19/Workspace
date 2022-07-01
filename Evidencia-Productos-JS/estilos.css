@@ -1,4 +1,5 @@
 
+
 body {
     margin: 0;
     padding: 0;
@@ -113,6 +114,7 @@ body {
 #tabla {
     box-shadow: 1px 10px 10px rgb(0, 0, 68);
     border: 4px solid;
+    
 }
 
 
@@ -139,8 +141,20 @@ td {
     color: white;
     font-size: 14px;
     font-weight: bold;
-    font-family: verdana;
+    font-family: Arial;
     cursor: pointer;
+}
+
+#borrar {
+    padding: 8px 6px;
+    border: none;
+    background-color: rgba(193, 0, 48, 0.711);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 16px;
+    font-family: Arial;
 }
 
 .modal {
